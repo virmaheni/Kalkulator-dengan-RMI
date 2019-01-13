@@ -39,5 +39,7 @@ public class operasi extends UnicastRemoteObject implements fungsi{
     public int bagi(int a, int b) throws RemoteException {
         hasil=a/b;
         return hasil;
+    
+    
 }
 }
